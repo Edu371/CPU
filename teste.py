@@ -30,5 +30,5 @@ EEPRON = [
     [IO|MI, RO|BI, AO|RI, BO|AI, 0, 0, 0, 0], # SWP
     [CS,    II,    IO|CI, 0,     0, 0, 0, 0], # JMP
     [AI,    0,     0,     0,     0, 0, 0, 0], # CLR
-    [IO|MI, AO|MI, 0,     0,     0, 0, 0, 0], # COPY
+    [IO|MI, AO|RI, 0,     0,     0, 0, 0, 0], # COPY
     ]
